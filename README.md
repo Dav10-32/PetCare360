@@ -34,6 +34,7 @@ Los commits seguirán la estructura: "PetCare 360: NombreResponsable - Acción r
 ![DiagramaCasosUso](docs/uml/DiagramaCasosUso.png)
 
 ### Diagrama de clases:
+![DiagramaCasosUso](docs/uml/DiagramaClases.png)
 
 ## Patrones de diseño
 ### Creacionales:
