@@ -1,4 +1,4 @@
-# PetCare 360 (Semana 1)
+# PetCare 360 (Semana 2)
 
 ## Descripción
 PetCare 360: plataforma para gestión de veterinarias.
@@ -25,6 +25,14 @@ Al completarse el desarrollo de una rama feature, se realizará un merge a la ra
 de igual manera, al finalizar todo, se realizará merge sobre la rama main.
 
 Los commits seguirán la estructura: "PetCare 360: NombreResponsable - Acción realizada."
+
+## Planeación del sprint en el README:
+
+En esta ocasión, por una confusión tecnica, no se realizo una planeación diaria para el sprint, ni se dividieron
+los entregables para varias tareas, pues por cuestion de tiempo todo se debia realizar al tiempo y el mismo día,
+por eso se maneja unicamente la rama **feature/PlanRefuerzoAzul_DavidPalacios_Semana2Completa** donde se encuentra todo
+lo solicitado para esta semana.
+
 ## Diseño(Diagramación) 
 
 ### Diagrama de contexto:
@@ -33,8 +41,41 @@ Los commits seguirán la estructura: "PetCare 360: NombreResponsable - Acción r
 ### Diagrama casos de uso:
 ![DiagramaCasosUso](docs/uml/DiagramaCasosUso.png)
 
+- ### Historias de usuario:
+    ### Cliente:
+  - Como Cliente, quiero registrar mi mascota para mantener sus datos actualizados en el sistema.
+
+  - Como Cliente, quiero agendar una cita para que mi mascota sea atendida por un veterinario.
+    
+  - Como Cliente, quiero consultar una cita para conocer la fecha, hora y estado de la misma.
+    
+  - Como Cliente, quiero cancelar una cita en caso de no poder asistir.
+    
+  - Como Cliente, quiero comprar producto(s) desde la tienda para suplir las necesidades de mi mascota.
+    
+  - Como Cliente, quiero consultar el historial médico de mi mascota para llevar un control de su salud.
+    
+  - Como Cliente, quiero recibir facturación electrónica para tener un comprobante de mis transacciones.
+  
+  ### Veterinario:
+  - Como Veterinario, quiero consultar la agenda de citas para organizar mi día y atender a las mascotas programadas.
+
+  - Como Veterinario, quiero actualizar el historial médico de una mascota después de su consulta para mantener un registro preciso.
+
+  - Como Veterinario, quiero atender una cita para diagnosticar y tratar a la mascota según sus necesidades.
+  
+  ### Personal en tienda:
+  - Como Personal de Tienda, quiero gestionar inventarios para controlar el stock de productos disponibles.
+
+  - Como Personal de Tienda, quiero asignar veterinarios a las citas según su disponibilidad y especialidad.
+
+  - Como Personal de Tienda, quiero generar facturación electrónica para entregar comprobantes legales a los clientes.
+
 ### Diagrama de clases:
-![DiagramaCasosUso](docs/uml/DiagramaClases.png)
+![DiagramaClases](docs/uml/DiagramaClases.png)
+
+### Diagramas de secuencia:
+[DiagramasSecuenciaAppointment(Ver PDF)](docs/pdf/DIAGRAMAS_DE_SECUENCIA_PETCARE360.pdf)
 
 ## Patrones de diseño
 ### Creacionales:
